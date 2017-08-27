@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="34457" started-at="2017-05-25T02:52:10Z" finished-at="2017-05-25T02:52:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="34457" started-at="2017-05-25T02:52:10Z" finished-at="2017-05-25T02:52:44Z">
+      <class name="testcases.HybridExecuteTest">
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.HybridExecuteTest@67b39df1]" name="testLogin" duration-ms="2700" started-at="2017-05-25T08:22:16Z" data-provider="hybridData" finished-at="2017-05-25T08:22:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login Application]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[null]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[null]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[null]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[null]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.HybridExecuteTest@67b39df1]" name="testLogin" duration-ms="22814" started-at="2017-05-25T08:22:19Z" data-provider="hybridData" finished-at="2017-05-25T08:22:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[asd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[GOTOURL]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[null]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[null]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://demo.guru99.com/V4/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.HybridExecuteTest@67b39df1]" name="testLogin" duration-ms="302" started-at="2017-05-25T08:22:41Z" data-provider="hybridData" finished-at="2017-05-25T08:22:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[na]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[username]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[mngr75583]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.HybridExecuteTest@67b39df1]" name="testLogin" duration-ms="542" started-at="2017-05-25T08:22:42Z" data-provider="hybridData" finished-at="2017-05-25T08:22:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[na]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[qetUvEd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.HybridExecuteTest@67b39df1]" name="testLogin" duration-ms="2003" started-at="2017-05-25T08:22:42Z" data-provider="hybridData" finished-at="2017-05-25T08:22:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[na]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[loginButton]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[null]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+      </class> <!-- testcases.HybridExecuteTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
