@@ -2,12 +2,12 @@
 <testng-results skipped="2" failed="0" ignored="0" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="TestSuite" duration-ms="66378" started-at="2017-08-27T20:10:11Z" finished-at="2017-08-27T20:11:17Z">
+  <suite name="TestSuite" duration-ms="50661" started-at="2017-08-28T13:29:45Z" finished-at="2017-08-28T13:30:36Z">
     <groups>
     </groups>
-    <test name="EdgeTest" duration-ms="28693" started-at="2017-08-27T20:10:11Z" finished-at="2017-08-27T20:10:40Z">
+    <test name="EdgeTest" duration-ms="22671" started-at="2017-08-28T13:29:45Z" finished-at="2017-08-28T13:30:08Z">
       <class name="parallelTest.CrossBrowserScript">
-        <test-method status="FAIL" signature="setup(java.lang.String)[pri:0, instance:parallelTest.CrossBrowserScript@4667ae56]" name="setup" is-config="true" duration-ms="28393" started-at="2017-08-28T01:40:11Z" finished-at="2017-08-28T01:40:39Z">
+        <test-method status="FAIL" signature="setup(java.lang.String)[pri:0, instance:parallelTest.CrossBrowserScript@4667ae56]" name="setup" is-config="true" duration-ms="22412" started-at="2017-08-28T18:59:45Z" finished-at="2017-08-28T19:00:08Z">
           <params>
             <param index="0">
               <value>
@@ -56,7 +56,7 @@ Driver info: driver.version: EdgeDriver
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
-Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:17236/status] to be available after 20025 ms
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:48691/status] to be available after 20011 ms
 	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:102)
 	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:187)
 	... 28 more
@@ -71,7 +71,7 @@ Caused by: java.util.concurrent.TimeoutException
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="testParameterWithXML()[pri:0, instance:parallelTest.CrossBrowserScript@4667ae56]" name="testParameterWithXML" duration-ms="0" started-at="2017-08-28T01:40:40Z" finished-at="2017-08-28T01:40:40Z">
+        <test-method status="SKIP" signature="testParameterWithXML()[pri:0, instance:parallelTest.CrossBrowserScript@4667ae56]" name="testParameterWithXML" duration-ms="0" started-at="2017-08-28T19:00:08Z" finished-at="2017-08-28T19:00:08Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Timed out waiting for driver server to start.
@@ -113,7 +113,7 @@ Driver info: driver.version: EdgeDriver
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
-Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:17236/status] to be available after 20025 ms
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:48691/status] to be available after 20011 ms
 	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:102)
 	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:187)
 	... 28 more
@@ -130,9 +130,28 @@ Caused by: java.util.concurrent.TimeoutException
         </test-method> <!-- testParameterWithXML -->
       </class> <!-- parallelTest.CrossBrowserScript -->
     </test> <!-- EdgeTest -->
-    <test name="FirefoxTest" duration-ms="59951" started-at="2017-08-27T20:10:11Z" finished-at="2017-08-27T20:11:11Z">
+    <test name="ChromeTest" duration-ms="43635" started-at="2017-08-28T13:29:45Z" finished-at="2017-08-28T13:30:29Z">
       <class name="parallelTest.CrossBrowserScript">
-        <test-method status="FAIL" signature="setup(java.lang.String)[pri:0, instance:parallelTest.CrossBrowserScript@42e26948]" name="setup" is-config="true" duration-ms="59892" started-at="2017-08-28T01:40:11Z" finished-at="2017-08-28T01:41:11Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:parallelTest.CrossBrowserScript@61832929]" name="setup" is-config="true" duration-ms="33926" started-at="2017-08-28T18:59:45Z" finished-at="2017-08-28T19:00:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testParameterWithXML()[pri:0, instance:parallelTest.CrossBrowserScript@61832929]" name="testParameterWithXML" duration-ms="9674" started-at="2017-08-28T19:00:19Z" finished-at="2017-08-28T19:00:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+      </class> <!-- parallelTest.CrossBrowserScript -->
+    </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="50661" started-at="2017-08-28T13:29:45Z" finished-at="2017-08-28T13:30:36Z">
+      <class name="parallelTest.CrossBrowserScript">
+        <test-method status="FAIL" signature="setup(java.lang.String)[pri:0, instance:parallelTest.CrossBrowserScript@42e26948]" name="setup" is-config="true" duration-ms="50613" started-at="2017-08-28T18:59:45Z" finished-at="2017-08-28T19:00:36Z">
           <params>
             <param index="0">
               <value>
@@ -181,7 +200,7 @@ Driver info: driver.version: FirefoxDriver
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
-Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:38551/hub/status] to be available after 45002 ms
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:12796/hub/status] to be available after 45002 ms
 	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:102)
 	at org.openqa.selenium.firefox.XpiDriverService.waitUntilAvailable(XpiDriverService.java:110)
 	... 28 more
@@ -196,7 +215,7 @@ Caused by: java.util.concurrent.TimeoutException
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="testParameterWithXML()[pri:0, instance:parallelTest.CrossBrowserScript@42e26948]" name="testParameterWithXML" duration-ms="0" started-at="2017-08-28T01:41:11Z" finished-at="2017-08-28T01:41:11Z">
+        <test-method status="SKIP" signature="testParameterWithXML()[pri:0, instance:parallelTest.CrossBrowserScript@42e26948]" name="testParameterWithXML" duration-ms="0" started-at="2017-08-28T19:00:36Z" finished-at="2017-08-28T19:00:36Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Timed out waiting 45 seconds for Firefox to start.
@@ -238,7 +257,7 @@ Driver info: driver.version: FirefoxDriver
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
-Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:38551/hub/status] to be available after 45002 ms
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:12796/hub/status] to be available after 45002 ms
 	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:102)
 	at org.openqa.selenium.firefox.XpiDriverService.waitUntilAvailable(XpiDriverService.java:110)
 	... 28 more
@@ -255,24 +274,5 @@ Caused by: java.util.concurrent.TimeoutException
         </test-method> <!-- testParameterWithXML -->
       </class> <!-- parallelTest.CrossBrowserScript -->
     </test> <!-- FirefoxTest -->
-    <test name="ChromeTest" duration-ms="66378" started-at="2017-08-27T20:10:11Z" finished-at="2017-08-27T20:11:17Z">
-      <class name="parallelTest.CrossBrowserScript">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:parallelTest.CrossBrowserScript@61832929]" name="setup" is-config="true" duration-ms="51502" started-at="2017-08-28T01:40:11Z" finished-at="2017-08-28T01:41:03Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testParameterWithXML()[pri:0, instance:parallelTest.CrossBrowserScript@61832929]" name="testParameterWithXML" duration-ms="14848" started-at="2017-08-28T01:41:03Z" finished-at="2017-08-28T01:41:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testParameterWithXML -->
-      </class> <!-- parallelTest.CrossBrowserScript -->
-    </test> <!-- ChromeTest -->
   </suite> <!-- TestSuite -->
 </testng-results>

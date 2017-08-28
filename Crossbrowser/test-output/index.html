@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-TestSuite">
-                    <span>C:\Users\Alok\workspace1\Crossbrowser\testngCrossBrowserMultipleExecution.xml</span>
+                    <span>C:\Users\Alok\git\Crossbrowser\testngCrossBrowserMultipleExecution.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -166,7 +166,7 @@ Driver info: driver.version: EdgeDriver
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
-Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:17236/status] to be available after 20025 ms
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:48691/status] to be available after 20011 ms
 	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:102)
 	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:187)
 	... 28 more
@@ -203,7 +203,7 @@ Driver info: driver.version: FirefoxDriver
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
-Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:38551/hub/status] to be available after 45002 ms
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:12796/hub/status] to be available after 45002 ms
 	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:102)
 	at org.openqa.selenium.firefox.XpiDriverService.waitUntilAvailable(XpiDriverService.java:110)
 	... 28 more
@@ -236,7 +236,7 @@ Caused by: java.util.concurrent.TimeoutException
         </div> <!-- panel TestSuite -->
         <div panel-name="test-xml-TestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Alok\workspace1\Crossbrowser\testngCrossBrowserMultipleExecution.xml</span>
+            <span class="header-content">C:\Users\Alok\git\Crossbrowser\testngCrossBrowserMultipleExecution.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -308,7 +308,7 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testParameterWithXML')
 data.setCell(0, 2, 'parallelTest.CrossBrowserScript')
-data.setCell(0, 3, 14848);
+data.setCell(0, 3, 9674);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testParameterWithXML')
 data.setCell(1, 2, 'parallelTest.CrossBrowserScript')
@@ -321,7 +321,7 @@ window.suiteTableData['TestSuite']= { tableData: data, tableDiv: 'times-div-Test
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 14 seconds</span>
+              <span class="suite-total-time">Total running time: 9 seconds</span>
               <div id="times-div-TestSuite">
               </div> <!-- times-div-TestSuite -->
             </div> <!-- times-div -->
@@ -349,6 +349,10 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">parallelTest.CrossBrowserScript</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
+                <span class="method-name">setup(Chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">setup(Edge)</span>
@@ -360,13 +364,9 @@ return data;
                 <span class="method-name">setup(Firefox)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
-              <div class="configuration-test before">
-                <span class="method-name">setup(Chrome)</span>
-                <span class="method-start">2 ms</span>
-              </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">testParameterWithXML</span>
-                <span class="method-start">51506 ms</span>
+                <span class="method-start">33941 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
