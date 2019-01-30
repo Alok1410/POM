@@ -23,6 +23,7 @@ public class HybridExecuteTest {
         
       
 	if(testcaseName!=null&&testcaseName.length()==3){
+		System.setProperty("webdriver.gecko.driver", "C:\\Users\\Alok\\Downloads\\Compressed\\geckodriver-v0.20.1-win64\\geckodriver.exe");
 	    webdriver=new FirefoxDriver();
 	    }
 	
