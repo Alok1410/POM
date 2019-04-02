@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27094" started-at="2019-01-23T14:22:39Z" finished-at="2019-01-23T14:23:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27094" started-at="2019-01-23T14:22:39Z" finished-at="2019-01-23T14:23:06Z">
+      <class name="demo.xlsxdata">
+        <test-method status="PASS" signature="setup()[pri:0, instance:demo.xlsxdata@53b32d7]" name="setup" is-config="true" duration-ms="21378" started-at="2019-01-23T19:52:39Z" finished-at="2019-01-23T19:53:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:demo.xlsxdata@53b32d7]" name="testMethod" duration-ms="672" started-at="2019-01-23T19:53:01Z" data-provider="SearchProvider" finished-at="2019-01-23T19:53:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[value]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:demo.xlsxdata@53b32d7]" name="testMethod" duration-ms="432" started-at="2019-01-23T19:53:02Z" data-provider="SearchProvider" finished-at="2019-01-23T19:53:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[awwwsd@yopmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[251463]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:demo.xlsxdata@53b32d7]" name="testMethod" duration-ms="427" started-at="2019-01-23T19:53:02Z" data-provider="SearchProvider" finished-at="2019-01-23T19:53:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dsdsd@yopmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[651265126]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:demo.xlsxdata@53b32d7]" name="testMethod" duration-ms="410" started-at="2019-01-23T19:53:02Z" data-provider="SearchProvider" finished-at="2019-01-23T19:53:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sascsacc@yopmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[22222]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:demo.xlsxdata@53b32d7]" name="testMethod" duration-ms="390" started-at="2019-01-23T19:53:03Z" data-provider="SearchProvider" finished-at="2019-01-23T19:53:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ddd@yopmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:demo.xlsxdata@53b32d7]" name="testMethod" duration-ms="431" started-at="2019-01-23T19:53:03Z" data-provider="SearchProvider" finished-at="2019-01-23T19:53:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dd@yopmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[272222]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:demo.xlsxdata@53b32d7]" name="testMethod" duration-ms="380" started-at="2019-01-23T19:53:04Z" data-provider="SearchProvider" finished-at="2019-01-23T19:53:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ddtd@yopmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2442222]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:demo.xlsxdata@53b32d7]" name="testMethod" duration-ms="420" started-at="2019-01-23T19:53:04Z" data-provider="SearchProvider" finished-at="2019-01-23T19:53:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ddrrd@yopmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7422222]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:demo.xlsxdata@53b32d7]" name="testMethod" duration-ms="392" started-at="2019-01-23T19:53:04Z" data-provider="SearchProvider" finished-at="2019-01-23T19:53:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dddy@yopmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[44]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:demo.xlsxdata@53b32d7]" name="testMethod" duration-ms="452" started-at="2019-01-23T19:53:05Z" data-provider="SearchProvider" finished-at="2019-01-23T19:53:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ddhd@yopmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[242222]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:demo.xlsxdata@53b32d7]" name="testMethod" duration-ms="468" started-at="2019-01-23T19:53:05Z" data-provider="SearchProvider" finished-at="2019-01-23T19:53:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dd44hd@yopmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[242223]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:demo.xlsxdata@53b32d7]" name="testMethod" duration-ms="422" started-at="2019-01-23T19:53:06Z" data-provider="SearchProvider" finished-at="2019-01-23T19:53:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[d44dhd@yopmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[242224]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+      </class> <!-- demo.xlsxdata -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
