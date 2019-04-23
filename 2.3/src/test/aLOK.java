@@ -1,5 +1,6 @@
 package test;
 
+import org.junit.Assert;
 import org.testng.annotations.Test;
 
 public class aLOK
@@ -10,5 +11,11 @@ public class aLOK
 	{
 		String url = "http://api.ytzi.co/t/clk?id=7YUOCBQT82s2=41414141";
 		System.out.println(url.substring(url.lastIndexOf("=") - 2));
+	}
+
+	@Test
+	public void test1()
+	{
+		Assert.assertTrue(false);
 	}
 }
