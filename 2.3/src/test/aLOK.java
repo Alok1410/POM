@@ -16,6 +16,6 @@ public class aLOK
 	@Test
 	public void test1()
 	{
-		Assert.assertTrue(false);
+		Assert.assertEquals("an", "a");
 	}
 }
