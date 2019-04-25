@@ -9,7 +9,6 @@
           <include name="call"/>
           <include name="startTest"/>
           <include name="getResult"/>
-          <include name="test123"/>
         </methods>
       </class> <!-- test.Extent -->
     </classes>
