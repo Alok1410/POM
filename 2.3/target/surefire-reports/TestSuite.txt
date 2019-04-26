@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.65 sec <<< FAILURE! - in TestSuite
+test1(test.aLOK)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected [a] but found [an]
+	at test.aLOK.test1(aLOK.java:19)
+
+call(test.Extent)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.AssertionError: expected [a] but found [an]
+	at test.Extent.call(Extent.java:59)
+

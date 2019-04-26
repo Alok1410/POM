@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [TestSuite]" parallel="tests">
+  <test name="alok(failed)" parallel="tests">
+    <classes>
+      <class name="test.aLOK">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- test.aLOK -->
+      <class name="test.Extent">
+        <methods>
+          <include name="endTest"/>
+          <include name="call"/>
+          <include name="startTest"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- test.Extent -->
+    </classes>
+  </test> <!-- alok(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
